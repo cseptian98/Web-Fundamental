@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Submission</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+<div class="header">
+        <h1>My Personal Information</h1>
+    </div>
+    <div class="foto">
+       <img src="Profile.jpg"></img>
+       <h2>Chandra Septian</h2>
+       <div class="bio">
+        <p>Personal Information</p>
+        <ul type="none">
+            <li>Age : 20</li>
+            <hr width="20%" align="left">
+            <li>Phone : <a href="tel:62895339871333" style="text-decoration:none">0895339871333</a></li>
+            <hr width="20%" align="left">
+            <li>Email : <a href="mailto:cseptian48@gmail.com" style="text-decoration:none">cseptian48@gmail.com</a></li>
+            <hr width="20%" align="left">
+        </ul>
+       </div>
+    </div>
+    <div class="isi">
+        <p style="font-size: 2.4vw; 
+        margin: 2% 0 0 0; 
+        font-family: 'EB Garamond', serif;
+        font-weight: bold;">
+            Tentang Saya
+        </p>
+            <div class="about">
+            <p id="tentang">Nama saya Chandra Septian, saat ini saya sedang melanjutkan kuliah di Universitas Komputer Indonesia.
+                Disana saya mengambil jurusan Teknik Informatika, karena saya ingin meningkatkan skill di bidang informatika dan berhubung saya pun
+                alumni smk rpl yang sama - sama mempelajari hal di dunia informatika. Selain kegiatan perkuliahan, saya pun aktif di organisasi diluar perkuliahan,
+                misal di pemerintahan dan lingkungan sekitar rumah. Hal ini saya pikir dapat membantu untuk menambah wawasan di dunia selain informatika dan
+                menambah pengalaman juga memperbanyak relasi dengan banyak pihak.</p>
+            </p>
+            </div>
+            <p style="text-align: left;
+            font-family: 'EB Garamond', serif;
+            font-weight: bold;
+            font-size: 1.4vw;">Text Decoration</p>
+            <button onclick="fItalic()"><span>Italic</span></button>
+            <button onclick="fBold()"><span>Bold</span></button>
+            <button onclick="fLine()"><span>Underline</span></button>
+            <script>
+                var x = document.getElementById("tentang");
+                
+                function fItalic(){
+                    x.style="font-style:italic";
+                }
+                function fBold(){
+                    x.style="font-weight:bold";
+                }
+                function fLine(){
+                    x.style="text-decoration:underline";
+                }
+            </script>
+    </div>
+    <div class="akun">
+        <p>Find Me In!</p>
+        <ul>
+            <li><a href= "https://github.com/cseptian98" target="_blank"><img src="img.png" alt="Akun Github" width="40px"></img></a></li>
+            <li><a href= "https://www.linkedin.com/in/cseptian" target="_blank"><img src="img2.png" alt="Akun LinkedIn" width="40px"></img></a></li>
+            <li><a href= "https://twitter.com/CSeptian98" target="_blank"><img src="img3.png" alt="Akun Twitter" width="40px"></img></a></li> 
+        </ul>
+    </div>
+</body>
+</html>
